@@ -83,7 +83,50 @@ button {
 button:hover {
   background-color: #45a049;
 }
+.tutorials-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
+h1 {
+  color: #FF0000;
+}
+
+.tutorial-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.tutorial-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tutorial-card h2 {
+  color: #333;
+}
+
+.tutorial-card p {
+  color: #666;
+}
+
+.tutorial-card a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.tutorial-card a:hover {
+  background-color: #45a049;
+}
 footer {
   background-color: gray;
   color: white;
